@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body { @apply bg-lavender; }
+  .btn-primary { @apply bg-purple-primary text-white hover:bg-purple-accent; }
+}
